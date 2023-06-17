@@ -6,7 +6,7 @@ const students = [ { name: 'John', age: 20 }, { name: 'Jane', age: 22 }, { name:
 */
 
 function nameArray(arr){
-    nameArr = arr.map(value => value.name);
+   let nameArr = arr.map(value => value.name);
     return nameArr;
 }
 console.log(nameArray([{ name: 'John', age: 20 }, { name: 'Jane', age: 22 }, { name: 'Sam', age: 19 }]));
